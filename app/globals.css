@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.shadow-circle {
+  @apply rounded-full bg-slate-900 hover:bg-slate-800 w-[100px] h-10 shadow-md overflow-hidden relative
+}
